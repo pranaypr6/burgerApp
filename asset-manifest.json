@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/burgerApp/static/css/main.cc3d274d.chunk.css",
-    "main.js": "/burgerApp/static/js/main.42636a6f.chunk.js",
-    "main.js.map": "/burgerApp/static/js/main.42636a6f.chunk.js.map",
+    "main.js": "/burgerApp/static/js/main.ecab3875.chunk.js",
+    "main.js.map": "/burgerApp/static/js/main.ecab3875.chunk.js.map",
     "runtime-main.js": "/burgerApp/static/js/runtime-main.bd053177.js",
     "runtime-main.js.map": "/burgerApp/static/js/runtime-main.bd053177.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/burgerApp/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f3880943.chunk.js": "/burgerApp/static/js/2.f3880943.chunk.js",
-    "static/js/2.f3880943.chunk.js.map": "/burgerApp/static/js/2.f3880943.chunk.js.map",
+    "static/css/2.37865b2a.chunk.css": "/burgerApp/static/css/2.37865b2a.chunk.css",
+    "static/js/2.f444a299.chunk.js": "/burgerApp/static/js/2.f444a299.chunk.js",
+    "static/js/2.f444a299.chunk.js.map": "/burgerApp/static/js/2.f444a299.chunk.js.map",
     "index.html": "/burgerApp/index.html",
-    "precache-manifest.1a673ee9034e2cb4f67e8b1050606474.js": "/burgerApp/precache-manifest.1a673ee9034e2cb4f67e8b1050606474.js",
+    "precache-manifest.51064f120cc1d9a6e7a82b5145439494.js": "/burgerApp/precache-manifest.51064f120cc1d9a6e7a82b5145439494.js",
     "service-worker.js": "/burgerApp/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/burgerApp/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/2.37865b2a.chunk.css.map": "/burgerApp/static/css/2.37865b2a.chunk.css.map",
     "static/css/main.cc3d274d.chunk.css.map": "/burgerApp/static/css/main.cc3d274d.chunk.css.map",
-    "static/js/2.f3880943.chunk.js.LICENSE.txt": "/burgerApp/static/js/2.f3880943.chunk.js.LICENSE.txt",
+    "static/js/2.f444a299.chunk.js.LICENSE.txt": "/burgerApp/static/js/2.f444a299.chunk.js.LICENSE.txt",
     "static/media/bottom.svg": "/burgerApp/static/media/bottom.331698bb.svg",
     "static/media/cheese.svg": "/burgerApp/static/media/cheese.4a1b5843.svg",
     "static/media/layerofonions.svg": "/burgerApp/static/media/layerofonions.f2c1b013.svg",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bd053177.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.f3880943.chunk.js",
+    "static/css/2.37865b2a.chunk.css",
+    "static/js/2.f444a299.chunk.js",
     "static/css/main.cc3d274d.chunk.css",
-    "static/js/main.42636a6f.chunk.js"
+    "static/js/main.ecab3875.chunk.js"
   ]
 }
