@@ -8,6 +8,8 @@ import Lettuce from "./components/Lettuce";
 import Tomato from "./components/Tomato";
 import Cheese from "./components/Cheese";
 import Onion from "./components/Onion";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [top, setTop] = useState([1]);
@@ -19,6 +21,7 @@ function App() {
 
   return (
     <Container fluid className="mycontainer">
+      <ToastContainer />
       <div className="row ">
         <div className="col-lg-6 col-sm-12 text-center">
           <h2 className="title">I Love Burger</h2>
@@ -43,12 +46,14 @@ function App() {
           ))}
         </div>
         <div className="col-lg-6 col-sm-12 text-center buttons">
+          <h2 className="title">Make your own burger</h2>
           <Button
             color="warning"
             className="btn"
             onClick={(e) => {
               e.preventDefault();
               setCheese([...cheese, 1]);
+              toast("Added a layer of cheese", { type: "warning" });
             }}
           >
             Add Cheese
@@ -59,6 +64,7 @@ function App() {
             onClick={(e) => {
               e.preventDefault();
               setLettuce([...lettuce, 1]);
+              toast("Added a layer of lettuce", { type: "success" });
             }}
           >
             Add Lettuce
@@ -69,6 +75,7 @@ function App() {
             onClick={(e) => {
               e.preventDefault();
               setOnion([...onion, 1]);
+              toast("Added a layer of onions", { type: "info" });
             }}
           >
             Add Onion
@@ -79,6 +86,7 @@ function App() {
             onClick={(e) => {
               e.preventDefault();
               setTomato([...tomato, 1]);
+              toast("Added a layer of tomatos", { type: "error" });
             }}
           >
             Add Tomato
