@@ -10,6 +10,7 @@ import Cheese from "./components/Cheese";
 import Onion from "./components/Onion";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Typed from "react-typed";
 
 function App() {
   const [top, setTop] = useState([1]);
@@ -46,7 +47,9 @@ function App() {
           ))}
         </div>
         <div className="col-lg-6 col-sm-12 text-center buttons">
-          <h2 className="title">Make your own burger</h2>
+          <h2>
+            <Typed strings={["Make your own burger"]} typeSpeed={40} />
+          </h2>
           <Button
             color="warning"
             className="btn"
